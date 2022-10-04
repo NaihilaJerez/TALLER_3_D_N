@@ -1,0 +1,466 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+.desk{
+    background-image: url(./Hotel.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.navdash{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: var(--azulnegro);
+    flex-direction: column;
+}
+
+.fondito{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: -15px;
+    background-image: url(Group\ 200.svg);
+    background-size: cover;
+}
+
+.loguito{
+    display: flex;
+    position: absolute;
+    color: var(--blanco);
+    top: 40px;
+    left: 20%;
+    width: 70%;
+    height: 30%;
+}
+
+.datos{
+    position: absolute;
+    padding-top: 40%;
+    top: 20%;
+    left: 70px;
+}
+
+.parra{
+    font-size: 12px;
+}
+.options{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    padding: 2rem;
+    left: var(--negro2);
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.items:hover{
+    background-color: #0B3860;
+    width: 100%;
+    height: 120px;
+}
+
+.salir{
+    position: absolute;
+    background: var(--negro);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    left: -2px;
+    top: 650px;
+}
+
+.information{
+    width: 70%;
+    height: 660px;
+    background-color: rgba(245, 241, 241, 0.59);
+    font-size: 29px;
+    top: 25px; 
+    left: 350px;
+    justify-content: center;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.information-image{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    height: 200px;
+    width: 200px; 
+    float: left;
+}
+
+.information-title{
+    position: absolute;
+    width: 50%;
+    top: 20px;
+    left: 300px;
+    font-size: 70%;
+}
+
+.information-text{
+    position: absolute;
+    top: 20px;
+    font-size: 60%;
+    width: 100%;
+}
+
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.tipoid{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.id{
+    position: absolute;
+    left: 300px;
+    top: -1px;
+} 
+
+.name{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+.last{
+    position: absolute;
+    left: 300px;
+    top: 90px;
+}
+.date{
+    position: absolute;
+    left: 0px;
+    top: 180px;
+}
+
+.country{
+    position: absolute;
+    left: 300px;
+    top: 180px;
+}
+
+.form-check{
+    position: absolute;
+    left: 0px;
+    top: 270px;
+    display: flex;
+}
+
+.cel{
+    position: absolute;
+    left: 300px;
+    top: 270px;
+}
+
+.mail{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+}
+
+.actu{
+    position: absolute;
+    left: 300px;
+    top: 370px;
+}
+
+.pass{
+    position: absolute;
+    left: 300px;
+    top: 490px;
+}
+
+.confpass{
+    position: absolute;
+    left: 600px;
+    top: 490px;
+}
+
+.cambiar{
+    background: var(--azulnegro);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.camb{
+    position: absolute;
+    left: 300px;
+    top: 570px; 
+}
+
+.cambiarpass{
+    background: var(--azulnegro);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.cambpass{
+    position: absolute;
+    left: 48px;
+    top: 225px; 
+}
+@media screen and (min-width: 1024px){
+    .desk{
+        background-image: url(./Hotel.jpg);
+        background-size: cover;
+    }
+    
+    .navdash{
+        display: flex;
+        width: 20%;
+        height: 96.6%;
+        background: var(--azulnegro);
+        flex-direction: column;
+    }
+    
+    .fondito{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top: -15px;
+        background-image: url(./Group\ 200.svg);
+        background-size: cover;
+    }
+    
+    .loguito{
+        display: flex;
+        position: absolute;
+        color: var(--blanco);
+        top: 40px;
+        left: 20%;
+        width: 70%;
+        height: 30%;
+    }
+    
+    .datos{
+        position: absolute;
+        padding-top: 40%;
+        top: 20%;
+        left: 70px;
+    }
+    
+    .parra{
+        font-size: 12px;
+    }
+    .options{
+        display: flex;
+        position: absolute;
+        left: var(--negro2);
+        flex-direction: column;
+        width: 100%;
+        height: 20%;
+    }
+    .items:hover{
+        background-color: #0B3860;
+        width: 100%;
+        height: 120px;
+    }
+    
+    .salir{
+        position: absolute;
+        background: var(--negro);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        width: 100%;
+        left: -2px;
+        top: 94%;
+    }
+    
+    .information{
+        width: 60%;
+        height: 80%;
+        background-color: rgba(245, 241, 241, 0.59);
+        font-size: 29px;
+        top: 5%; 
+        left: 30%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .information-image{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        display: flex;
+        height: 250px;
+        width: 250px; 
+        float: left;
+    }
+    
+    .information-title{
+        position: absolute;
+        width: 50%;
+        top: 20px;
+        left: 350px;
+        font-size: 70%;
+    }
+    
+    .information-text{
+        position: absolute;
+        top: 20px;
+        font-size: 70%;
+        width: 100%;
+        left: 4%;
+    }
+    
+    input{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 100%;
+    }
+    
+    .tipoid{
+        position: absolute;
+        left: 300px;
+        top: 50px;
+    }
+    .id{
+        position: absolute;
+        left: 350px;
+        top: -1px;
+    } 
+    
+    .name{
+        position: absolute;
+        top: 90px;
+        left: 0px;
+    }
+    
+    .last{
+        position: absolute;
+        left: 350px;
+        top: 90px;
+    }
+    .date{
+        position: absolute;
+        left: 0px;
+        top: 180px;
+    }
+    
+    .country{
+        position: absolute;
+        left: 350px;
+        top: 180px;
+    }
+    
+    .form-check{
+        position: absolute;
+        left: 0px;
+        top: 270px;
+        display: flex;
+    }
+    
+    .cel{
+        position: absolute;
+        left: 350px;
+        top: 270px;
+    }
+    
+    .mail{
+        position: absolute;
+        left: 0px;
+        top: 350px;
+    }
+    
+    .actu{
+        position: absolute;
+        left: 350px;
+        top: 370px;
+    }
+    
+    .pass{
+        position: absolute;
+        left: 300px;
+        top: 490px;
+    }
+    
+    .confpass{
+        position: absolute;
+        left: 650px;
+        top: 490px;
+    }
+    
+    .cambiar{
+        background: var(--azulnegro);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .camb{
+        position: absolute;
+        left: 300px;
+        top: 600px; 
+    }
+    
+    .cambiarpass{
+        background: var(--azulnegro);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 200px;
+    }
+    
+    .cambpass{
+        position: absolute;
+        left: 30px;
+        top: 300px; 
+    }
+}

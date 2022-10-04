@@ -1,0 +1,316 @@
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Marcellus', serif;
+}
+
+
+.bodyInde {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: solid #fff 2px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.elements {
+
+    text-align: center;
+    margin-top: -2em;
+}
+
+.quadrate {
+    cursor: pointer;
+    height: 4px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #717171;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 2px;
+}
+
+.active,
+.quadrate:hover {
+    background-color: #fff;
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        padding: 5px;
+    }
+}
+
+/*INFOCARRUCEL*/
+
+.text-slider{
+    position: absolute;
+    color: var(--blanco);
+    top: 65%;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding : 2.1rem;
+    width: 70%;
+    font-size: 25px;
+}
+
+.etiqueta{
+    position: absolute;
+    display: flex;
+    color: var(--blanco);
+    background-color: #9C2759;
+    font-family: 'Marcellus', serif;
+    font-size: 2em;
+    margin-left: 97%;
+    width: 3%;
+    top: 71%;
+    height: 60%;
+    border-radius: 0.1em;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    
+}
+
+/* bajo carricel*/
+#info {
+    padding: 6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-text {
+    width: 36em;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.info-image img {
+    width: 14em;
+    margin-right: -4em;
+}
+
+/*FACTURE*/
+
+#features {
+    background: url(./bg-features.png); 
+    color: white;
+    padding-top: 1rem;
+}
+
+.features-title {
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+}
+
+.features-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature i {
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue {
+    background-color: #00325eae;
+}
+
+.feature-black {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+
+/*SOY EL MAPA*/
+
+#location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.125rem;
+    text-align: center;
+    position: relative;
+}
+
+.location-tittle {
+    color: var(--negro2);
+    font-size: 3em;
+
+    padding: 1em;
+}
+
+.location-maps {
+    width: 100%;
+    padding: 1em;
+}
+
+.location-text {
+
+    font-family: 'Marcellus', serif;
+    font-size: 2em;
+    justify-content: center;
+    line-height: 2em;
+
+
+}
+
+.location-text hr {
+    width: 28em;
+    border-color: var(--azulclaro);
+    position: absolute;
+    top: 90%;
+    left: 27.5%;
+    margin: -25px 0 0 -25px;
+
+}
+
+.mapa {
+    width: 100%;
+}
+
+/*CARDS*/
+
+.title-cards{
+    font-family: 'Marcellus', serif;
+    display: flex;
+    color: var(--blanco);
+    justify-content: center;
+    font-size: 2.1em;
+    background-color: var(--negro);
+    padding-bottom: 7%;
+    padding-top: 2%;
+    
+    
+}
+
+.card{
+    position: relative;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -4.5%;
+    left: 3%;
+
+}
+
+.card__perfil{
+    width: 25%;
+    padding: 20px;
+    background-image: url(./Group\ 200.svg); 
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.card__perfil:hover img{
+    transform: rotate(0);
+}
+.card__nombre img{
+    width: 30%;
+    color: var(--blanco);
+    margin-left: -75%;
+    border-radius: 50%;
+
+}
+
+.card__descripcion p{
+    color: var(--blanco);
+
+}
+
+.card__nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.nombre{
+    position: relative;
+    color: var(--blanco);
+    font-family: 'Playfair Display', serif;
+    top: -35%;
+    left: 30%;
+}
+
+.icon{
+   
+    padding: 1%;
+    font-size: 150%;
+
+}
+
+.icon1{
+    color: var(--Magenta);
+    font-size: 150%;
+    padding: 1%;
+}

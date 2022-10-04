@@ -1,0 +1,13 @@
+.user{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(219, 212, 212);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 90%;
+}
+.username{
+    background-color: black;
+}

@@ -1,0 +1,22 @@
+.bodyerror{
+    margin: 0px;
+    background-image: url(https://images7.alphacoders.com/528/528615.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.texto{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+}
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+img{
+    width: 50%;
+}

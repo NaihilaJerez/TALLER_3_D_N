@@ -1,0 +1,107 @@
+.iniciarr{
+    background-image: url(login.jpg);
+    height: 100%;
+}
+.login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+    background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+.formulario{
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);;
+    margin-top: 150px;
+    padding: 0px;
+}
+
+.password, .user{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 90%;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: var(--blanco);
+    font-size: 20px;
+    background: var(--negro2);
+    padding: 15px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+
+.login-box{
+    width: 35%;
+    height:75%;
+    background: linear-gradient(to top, rgba(85, 156, 238, 0.856), rgba(255, 255, 255, 0.74));
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:70px 30px;
+}
+
+.avatar{
+    position:absolute;
+    left: 20%;
+    width:25%;
+    height:25%;
+    
+}
+
+.imagen{
+    height: 10%;
+    width: 50%;
+    position: relative;
+    top: -10%;
+    left: -9%;
+    display: flex;
+    font-size: 100%;
+}
+
+.login-form{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.iniciar{
+    background: var(--negro2);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 70%;
+}
+.atras{
+    background: rgba(17, 76, 185, 0.685);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 7%;
+}
